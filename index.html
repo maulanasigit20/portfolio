@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-light">
+    <div class="container">
+      <a class="navbar-brand fs-4 fw-bold" href="#">John Doe </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="home" class="home container">
+    <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+      <div class="col-12 col-md-8">
+          <h3 class="fw-semibold">Hi! I am</h3>
+          <h1 class="fw-bold">John Doe</h1>
+          <p>I am Software Engineer based in Indonesia</p>
+          <a class="btn button" href="images/potrait.png" download>Resume</a>
+      </div>
+      <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
+        <img src="images/potrait.png" alt="Potrait">
+      </div>
+    </div>
+    <a href="#about" class="text-decoration-none  arrow w-100 d-flex align-items-center flex-column mt-5">
+      <div class="text-dark">More Info</div>
+      <img class="mt-1" id="arrow" src="images/arrow.svg" alt="arrow">
+    </a>
+  </section>
+
+  <section id="about" class="about container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum architecto itaque quo, blanditiis, sit ipsa vitae quos maxime fugiat, ullam necessitatibus sint voluptatibus eum iste deserunt hic accusamus eaque similique repudiandae rerum laborum! Amet fugiat excepturi eligendi quasi magnam. Error nemo aperiam temporibus quidem quis rerum repellendus ipsam ratione tenetur?</p>
+    <div class="about-exp">
+      <div class="about-exp-item">
+        <div class="about-exp-item-header">
+          <div>
+            <h5>Software Engineer</h5>
+            <p>Coding Studio (2021-Now)</p>
+          </div>
+          <button class="btn button" onclick="toggleDetail(event)">
+            More Info
+          </button>
+        </div>
+        <p class="about-exp-item-detail">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio laudantium quisquam quos quam ratione qui quod, dolor obcaecati atque rerum sit! Totam incidunt explicabo aliquid eum ex minus id!
+        </p>
+      </div>
+      <div class="about-exp-item">
+        <div class="about-exp-item-header">
+          <div>
+            <h5>Software Engineer</h5>
+            <p>Coding Studio (2021-Now)</p>
+          </div>
+          <button class="btn button" onclick="toggleDetail(event)">
+            More Info
+          </button>
+        </div>
+        <p class="about-exp-item-detail">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio laudantium quisquam quos quam ratione qui quod, dolor obcaecati atque rerum sit! Totam incidunt explicabo aliquid eum ex minus id!
+        </p>
+      </div>
+      <div class="about-exp-item">
+        <div class="about-exp-item-header">
+          <div>
+            <h5>Software Engineer</h5>
+            <p>Coding Studio (2021-Now)</p>
+          </div>
+          <button class="btn button" onclick="toggleDetail(event)">
+            More Info
+          </button>
+        </div>
+        <p class="about-exp-item-detail">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio laudantium quisquam quos quam ratione qui quod, dolor obcaecati atque rerum sit! Totam incidunt explicabo aliquid eum ex minus id!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work container">
+    <div class="row d-flex align-items-center gap-5">
+      <div class="col-12 col-md-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis vitae ex, magni iusto asperiores! Aspernatur consequuntur at repellendus sunt ut eligendi illo quas quia rerum asperiores, ab voluptas modi alias tenetur ex, magnam eius, amet animi nemo voluptate earum id. Laudantium inventore aspernatur culpa, in est corporis error delectus!</p>
+      </div>
+      <div class="col-12 col-md-6 work-img">
+        <div id="work-1" class="work-img-item">
+          <img src="images/work-1.png" alt="work-1" >
+        </div>
+        <div id="work-2" class="work-img-item">
+          <img src="images/work-2.png" alt="work-2" >
+        </div>
+        <div id="work-3" class="work-img-item">
+          <img src="images/work-3.png" alt="work-3" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <div class="row d-flex align-items-center gap-5">
+      <div class="col-12 col-lg-6">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, nulla error? Repellat consequatur, pariatur omnis delectus quibusdam ipsa facere nobis veritatis, ut aspernatur, placeat nemo aliquam nesciunt explicabo doloremque suscipit natus mollitia sunt deserunt? Eius voluptates id, sed nihil aperiam earum dicta minima illo alias nemo modi ex. Recusandae, porro.</p>
+        <div class="row">
+          <div class="col d-flex align-items-center">
+            <img class="w-25" src="images/Facebook.svg" alt="facebook-icon">
+            <p class="mb-0 ms-2">John Doe</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img class="w-25" src="images/Instagram.svg" alt="Instagram-icon">
+            <p class="mb-0 ms-2">@John_doe</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img class="w-25" src="images/Twitter.svg" alt="Twitter-icon">
+            <p class="mb-0 ms-2">@John_doe</p>
+          </div>
+        </div>
+      </div>
+        <div class="col-12 col-lg-5">
+          <form class="contact-form" onsubmit="onFormSubmit(event)">
+            <div class="mb-3">
+              <label for="inp_email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="inp_email" placeholder="example@mail">
+            </div>
+            <div class="mb-3">
+              <label for="inp_subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="inp_subject" placeholder="your subject">
+            </div>
+            <div class="mb-3">
+              <label for="inp_message" class="form-label">Message</label>
+              <input type="text" class="form-control" id="inp_message" placeholder="your message">
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+              <button type="submit" class="btn button">Submit</button>
+            </div>
+          </form>
+        </div>
+    </div>
+  </section>
+
+  <section id="footer" class="footer container">
+    <div id="footer-detail">
+      <p>©2023 Made with love</p>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
