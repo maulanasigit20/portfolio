@@ -63,7 +63,7 @@ body {
 
 .potrait {
     border-radius: 50%;
-    border: 5px solid blue;
+    border: 5px solid rgb(199, 199, 199);
 }
 
 .text-arrow {
@@ -181,7 +181,7 @@ body {
 /* footer */
 
 #footer {
-    border-top: 3px solid blue;
+    border-top: 3px solid rgb(216, 216, 216);
     padding: 0;
 }
 
@@ -189,6 +189,9 @@ body {
     .home img{
         width: 50%;
         transform: translateY(-50px);
+    }
+    .text-sosmed {
+        font-size: 15px;
     }
 }
 
