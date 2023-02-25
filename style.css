@@ -91,6 +91,10 @@ section::before {
     content: 'Work';
 }
 
+.work p {
+    text-align: justify;
+}
+
 .work-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -128,7 +132,7 @@ section::before {
 }
 
 #work-1:hover::after {
-    content: 'Web Project';
+    content: 'Portfolio Poject';
 }
 
 #work-2 {
@@ -144,7 +148,7 @@ section::before {
 }
 
 #work-3:hover::after {
-    content: 'Web Project';
+    content: 'Desktop Project';
 }
 
 /* Contact */
