@@ -63,6 +63,7 @@ body {
 
 .potrait {
     border-radius: 50%;
+    border: 5px solid blue;
 }
 
 .text-arrow {
@@ -165,7 +166,7 @@ body {
 }
 
 .contact-form{
-    border: 3px solid grey;
+    border: 3px solid blue;
     padding: 50px 30px;
 }
 
